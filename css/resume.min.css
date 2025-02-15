@@ -108,12 +108,13 @@ p.lead {
     font-size: 1.5rem;
     line-height: 3.5rem;
     margin-right: 1rem;
+    background-color: #000000;
 }
 .social-icons a:last-child {
     margin-right: 0;
 }
 .social-icons a:hover {
-    background-color: #83b9ff;
+    background-color: #000000;
 }
 .dev-icons {
     font-size: 3rem;
@@ -122,6 +123,7 @@ p.lead {
     color: #83b9ff;
 }
 #sideNav .navbar-nav .nav-item .nav-link {
+  
     font-weight: 800;
     letter-spacing: .05rem;
     text-transform: uppercase;
@@ -144,6 +146,7 @@ p.lead {
     flex-direction: column;
     width: 17rem;
     height: 100vh;
+    background-color: #000000;
 }
 #sideNav .navbar-brand {
     display: -webkit-box;
@@ -154,7 +157,7 @@ p.lead {
 }
 #sideNav .navbar-brand .img-profile {
     max-width: 10rem;
-    max-height: 10rem;
+    max-height: 20rem;
     border: .5rem solid rgba(255, 255, 255, .2);
 }
 #sideNav .navbar-collapse {
@@ -203,8 +206,9 @@ section.resume-section .resume-item .resume-date {
     padding-bottom: 3rem!important;
 }
 }.bg-primary {
-    background-image: linear-gradient(to left, #0af, transparent 95%)!important;
-    -moz-box-shadow: 4px 4px 7px rgba(0,170,255,.5);
+    background-color:black;
+    background-image: linear-gradient(to left, #000000, transparent 95%)!important;
+    -moz-box-shadow: 4px 4px 7px rgba(128,128,128);
 	-webkit-box-shadow: 4px 4px 7px rgba(0,170,255,.5);
 	box-shadow: 4px 4px 7px rgba(0,170,255,.5);
 }
